@@ -1,0 +1,212 @@
+version: '3.8'
+
+services:
+  redis:
+    image: redis:latest
+    container_name: redis
+    ports:
+      - "6379:6379"
+    networks:
+      - mynetwork
+    restart: always
+
+  flask_api_forecasting:
+    build: ./flask_api_forecasting
+    container_name: flask_api_forecasting
+    command: sh -c "python FlaskApiForecasting.py & python forecasting_service.py & python ForecastingServiceServer.py & python MongoApi.py & python HistForecast.py & python CatHistory.py"
+    ports:
+      - "5080:5080"
+      - "5600:5600"
+      - "3055:3055"
+      - "4650:4650"
+      - "4660:4660"
+      - "4670:4670"
+    volumes:
+      - ./flask_api_forecasting:/app
+    depends_on:
+      - redis
+    networks:
+      - mynetwork
+    environment:
+      - TF_ENABLE_ONEDNN_OPTS=0
+      - TF_CPP_MIN_LOG_LEVEL=2
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - MONGODB_URI=
+      - POSTGRES_HOST=
+      - POSTGRES_DB=sandbox
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+
+  node_api_server:
+    build: ./node_api_server
+    container_name: node_api_server
+    command: npm start
+    ports:
+      - "3030:3030"
+      - "3040:3040"
+    volumes:
+      - ./node_api_server:/app
+    depends_on:
+      - redis
+    networks:
+      - mynetwork
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - MONGODB_URI=
+  discord_api:
+    build: ./discord_api
+    container_name: discord_api
+    command: sh -c "python monitor.py & python mongoapi.py & python postgresapi.py"
+    ports:
+      - "5550:5550"
+    volumes:
+      - ./discord_api:/app
+    depends_on:
+      - redis
+    networks:
+      - mynetwork
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - MONGODB_URI=
+      - POSTGRES_HOST=
+      - POSTGRES_DB=sandbox
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=
+
+  rune_api:
+    build: ./rune_api
+    container_name: rune_api
+    command: sh -c "python app.py & python log_monitor.py"
+    ports:
+      - "5540:5540"
+    volumes:
+      - ./rune_api:/app
+    depends_on:
+      - redis
+    networks:
+      - mynetwork
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - MONGODB_URI=
+      - POSTGRES_HOST=
+      - POSTGRES_DB=sandbox
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5540/status"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  training_model_module:
+    build: ./training_model_module
+    container_name: training_model_module
+    ports:
+      - "5100:5100"
+    volumes:
+      - ./training_model_module:/app
+    depends_on:
+      - redis
+    networks:
+      - mynetwork
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - MONGODB_URI=
+      - POSTGRES_HOST=
+      - POSTGRES_DB=sandbox
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5100"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  react_app:
+    build: ./react_app
+    container_name: react_app
+    command: serve -s build -l 3000
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./react_app:/app
+    depends_on:
+      - flask_api_forecasting
+      - node_api_server
+      - discord_api
+      - rune_api
+      - training_model_module
+    networks:
+      - mynetwork
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - MONGODB_URI=
+      - POSTGRES_HOST=
+      - POSTGRES_DB=sandbox
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=
+      test: ["CMD", "curl", "-f", "http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - react_app
+      - flask_api_forecasting
+      - node_api_server
+      - discord_api
+      - rune_api
+      - training_model_module
+    networks:
+      - mynetwork
+
+  prometheus:
+    image: prom/prometheus
+    container_name: prometheus
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+    ports:
+      - "9090:9090"
+    networks:
+      - mynetwork
+
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    ports:
+      - "3001:3000"
+    networks:
+      - mynetwork
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+
+  cadvisor:
+    image: google/cadvisor:latest
+    container_name: cadvisor
+    ports:
+      - "8080:8080"
+    networks:
+      - mynetwork
+    volumes:
+      - /var/run:/var/run:ro
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+
+networks:
+  mynetwork:
+    driver: bridge
