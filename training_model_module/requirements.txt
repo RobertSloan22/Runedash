@@ -1,0 +1,11 @@
+Flask==3.0.3
+Flask-Cors==4.0.1
+Flask-SocketIO==5.3.6
+numpy==1.26.4
+pandas==2.2.2
+psycopg2-binary==2.9.9
+python-socketio==5.11.3
+SQLAlchemy==2.0.31
+tensorflow==2.17.0
+scikit-learn
+docker
