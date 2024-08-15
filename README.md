@@ -1,5 +1,5 @@
-Multi-Container Application Overview
-Introduction
+Multi-Container Application Overview:::
+Introduction:::
 This multi-container application is designed to comprehensively collect, process, forecast, and visualize data related to the cryptocurrency project "runes." The architecture employs multiple Docker containers, each fulfilling a specific role within the system. The application is designed to be modular, scalable, and efficient, allowing for real-time data handling, forecasting, and user interaction through a React-based frontend dashboard.
 
 Containers Overview
