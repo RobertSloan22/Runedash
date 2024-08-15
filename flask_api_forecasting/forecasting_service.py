@@ -17,7 +17,7 @@ CORS(app)
 
 # Connect to MongoDB
 client = MongoClient(
-    "mongodb+srv://radevai1201:szZ2HmXFRc902EeW@cluster0.b8z5ks7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    ""
 )
 db = client["runes"]
 job_status = {}
