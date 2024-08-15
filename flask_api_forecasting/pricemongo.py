@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Enable CORS
 CORS(app)
 # MongoDB connection
-client = MongoClient('mongodb+srv://radevai1201:szZ2HmXFRc902EeW@cluster0.b8z5ks7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+client = MongoClient('')
 db = client['runes']
 collection = db['GinidataRunes']
 
