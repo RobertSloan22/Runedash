@@ -4,7 +4,7 @@ from flask_cors import CORS
 import os
 
 # MongoDB connection string
-MONGO_URI = "mongodb+srv://radevai1201:szZ2HmXFRc902EeW@cluster0.b8z5ks7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_URI = ""
 
 # Hard-coded database and collection names
 DB_NAME = "runes"
