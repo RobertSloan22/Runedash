@@ -32,7 +32,7 @@ results_lock = Lock()
 
 # Connect to MongoDB
 client = MongoClient(
-    "mongodb+srv://radevai1201:szZ2HmXFRc902EeW@cluster0.b8z5ks7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    ""
 )
 db = client["runes"]
 logs_collection = db["logs"]
@@ -42,8 +42,8 @@ forecast_collection = db["forecast"]
 db_params = {
     "dbname": "sandbox",
     "user": "postgres",
-    "host": "runes.csxbyr0egtki.us-east-1.rds.amazonaws.com",
-    "password": "uIPRefz6doiqQcbpM5po",
+    "host": "",
+    "password": "",
 }
 engine = create_engine(
     f"postgresql+psycopg2://{db_params['user']}:{db_params['password']}@{db_params['host']}/{db_params['dbname']}"
