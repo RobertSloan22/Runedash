@@ -1,0 +1,493 @@
+2024-08-14 19:22:44,786 - INFO - Query Status: 1
+2024-08-14 19:22:45,829 - INFO - Query Status: 1
+2024-08-14 19:22:46,897 - INFO - Query Status: 2
+2024-08-14 19:34:00,751 - INFO - Batch 1 saved to database
+2024-08-14 19:34:04,313 - INFO - Batch 2 saved to database
+2024-08-14 19:34:07,609 - INFO - Batch 3 saved to database
+2024-08-14 19:34:10,669 - INFO - Batch 4 saved to database
+2024-08-14 19:34:14,108 - INFO - Batch 5 saved to database
+2024-08-14 19:34:17,418 - INFO - Batch 6 saved to database
+2024-08-14 19:34:20,401 - INFO - Batch 7 saved to database
+2024-08-14 19:34:23,492 - INFO - Batch 8 saved to database
+2024-08-14 19:34:26,450 - INFO - Batch 9 saved to database
+2024-08-14 19:34:29,596 - INFO - Batch 10 saved to database
+2024-08-14 19:34:32,544 - INFO - Batch 11 saved to database
+2024-08-14 19:34:35,915 - INFO - Batch 12 saved to database
+2024-08-14 19:34:39,001 - INFO - Batch 13 saved to database
+2024-08-14 19:34:42,551 - INFO - Batch 14 saved to database
+2024-08-14 19:34:45,606 - INFO - Batch 15 saved to database
+2024-08-14 19:34:48,490 - INFO - Batch 16 saved to database
+2024-08-14 19:34:51,789 - INFO - Batch 17 saved to database
+2024-08-14 19:34:55,340 - INFO - Batch 18 saved to database
+2024-08-14 19:34:58,781 - INFO - Batch 19 saved to database
+2024-08-14 19:35:02,047 - INFO - Batch 20 saved to database
+2024-08-14 19:35:05,723 - INFO - Batch 21 saved to database
+2024-08-14 19:35:08,945 - INFO - Batch 22 saved to database
+2024-08-14 19:35:12,117 - INFO - Batch 23 saved to database
+2024-08-14 19:35:15,507 - INFO - Batch 24 saved to database
+2024-08-14 19:35:18,550 - INFO - Batch 25 saved to database
+2024-08-14 19:35:21,610 - INFO - Batch 26 saved to database
+2024-08-14 19:35:24,741 - INFO - Batch 27 saved to database
+2024-08-14 19:35:27,926 - INFO - Batch 28 saved to database
+2024-08-14 19:35:30,850 - INFO - Batch 29 saved to database
+2024-08-14 19:35:33,963 - INFO - Batch 30 saved to database
+2024-08-14 19:35:36,907 - INFO - Batch 31 saved to database
+2024-08-14 19:35:40,016 - INFO - Batch 32 saved to database
+2024-08-14 19:35:43,015 - INFO - Batch 33 saved to database
+2024-08-14 19:35:46,094 - INFO - Batch 34 saved to database
+2024-08-14 19:35:49,173 - INFO - Batch 35 saved to database
+2024-08-14 19:35:52,149 - INFO - Batch 36 saved to database
+2024-08-14 19:35:56,133 - INFO - Batch 37 saved to database
+2024-08-14 19:35:59,717 - INFO - Batch 38 saved to database
+2024-08-14 19:36:03,124 - INFO - Batch 39 saved to database
+2024-08-14 19:36:06,516 - INFO - Batch 40 saved to database
+2024-08-14 19:36:09,779 - INFO - Batch 41 saved to database
+2024-08-14 19:36:13,151 - INFO - Batch 42 saved to database
+2024-08-14 19:36:16,123 - INFO - Batch 43 saved to database
+2024-08-14 19:36:19,618 - INFO - Batch 44 saved to database
+2024-08-14 19:36:24,605 - INFO - Batch 45 saved to database
+2024-08-14 19:36:28,047 - INFO - Batch 46 saved to database
+2024-08-14 19:36:31,248 - INFO - Batch 47 saved to database
+2024-08-14 19:36:34,698 - INFO - Batch 48 saved to database
+2024-08-14 19:36:37,653 - INFO - Batch 49 saved to database
+2024-08-14 19:36:41,036 - INFO - Batch 50 saved to database
+2024-08-14 19:36:43,947 - INFO - Batch 51 saved to database
+2024-08-14 19:36:46,858 - INFO - Batch 52 saved to database
+2024-08-14 19:36:49,914 - INFO - Batch 53 saved to database
+2024-08-14 19:36:53,131 - INFO - Batch 54 saved to database
+2024-08-14 19:36:57,275 - INFO - Batch 55 saved to database
+2024-08-14 19:37:12,534 - INFO - Batch 56 saved to database
+2024-08-14 19:37:15,807 - INFO - Batch 57 saved to database
+2024-08-14 19:37:18,800 - INFO - Batch 58 saved to database
+2024-08-14 19:37:22,058 - INFO - Batch 59 saved to database
+2024-08-14 19:37:25,435 - INFO - Batch 60 saved to database
+2024-08-14 19:37:28,559 - INFO - Batch 61 saved to database
+2024-08-14 19:37:31,623 - INFO - Batch 62 saved to database
+2024-08-14 19:37:34,813 - INFO - Batch 63 saved to database
+2024-08-14 19:37:38,343 - INFO - Batch 64 saved to database
+2024-08-14 19:37:41,759 - INFO - Batch 65 saved to database
+2024-08-14 19:37:45,043 - INFO - Batch 66 saved to database
+2024-08-14 19:37:48,335 - INFO - Batch 67 saved to database
+2024-08-14 19:37:51,462 - INFO - Batch 68 saved to database
+2024-08-14 19:37:54,872 - INFO - Batch 69 saved to database
+2024-08-14 19:37:58,132 - INFO - Batch 70 saved to database
+2024-08-14 19:38:01,242 - INFO - Batch 71 saved to database
+2024-08-14 19:38:04,490 - INFO - Batch 72 saved to database
+2024-08-14 19:38:07,675 - INFO - Batch 73 saved to database
+2024-08-14 19:38:11,444 - INFO - Batch 74 saved to database
+2024-08-14 19:38:14,835 - INFO - Batch 75 saved to database
+2024-08-14 19:38:18,136 - INFO - Batch 76 saved to database
+2024-08-14 19:38:21,090 - INFO - Batch 77 saved to database
+2024-08-14 19:38:24,348 - INFO - Batch 78 saved to database
+2024-08-14 19:38:27,472 - INFO - Batch 79 saved to database
+2024-08-14 19:38:30,821 - INFO - Batch 80 saved to database
+2024-08-14 19:38:34,009 - INFO - Batch 81 saved to database
+2024-08-14 19:38:37,201 - INFO - Batch 82 saved to database
+2024-08-14 19:38:40,885 - INFO - Batch 83 saved to database
+2024-08-14 19:38:44,423 - INFO - Batch 84 saved to database
+2024-08-14 19:38:47,346 - INFO - Batch 85 saved to database
+2024-08-14 19:38:50,452 - INFO - Batch 86 saved to database
+2024-08-14 19:38:53,576 - INFO - Batch 87 saved to database
+2024-08-14 19:38:57,073 - INFO - Batch 88 saved to database
+2024-08-14 19:39:00,031 - INFO - Batch 89 saved to database
+2024-08-14 19:39:03,488 - INFO - Batch 90 saved to database
+2024-08-14 19:39:07,066 - INFO - Batch 91 saved to database
+2024-08-14 19:39:10,172 - INFO - Batch 92 saved to database
+2024-08-14 19:39:13,692 - INFO - Batch 93 saved to database
+2024-08-14 19:39:16,831 - INFO - Batch 94 saved to database
+2024-08-14 19:39:20,539 - INFO - Batch 95 saved to database
+2024-08-14 19:39:24,174 - INFO - Batch 96 saved to database
+2024-08-14 19:39:27,223 - INFO - Batch 97 saved to database
+2024-08-14 19:39:30,297 - INFO - Batch 98 saved to database
+2024-08-14 19:39:33,655 - INFO - Batch 99 saved to database
+2024-08-14 19:39:36,885 - INFO - Batch 100 saved to database
+2024-08-14 19:39:39,942 - INFO - Batch 101 saved to database
+2024-08-14 19:39:43,168 - INFO - Batch 102 saved to database
+2024-08-14 19:39:46,403 - INFO - Batch 103 saved to database
+2024-08-14 19:39:49,597 - INFO - Batch 104 saved to database
+2024-08-14 19:39:52,700 - INFO - Batch 105 saved to database
+2024-08-14 19:39:56,302 - INFO - Batch 106 saved to database
+2024-08-14 19:39:59,666 - INFO - Batch 107 saved to database
+2024-08-14 19:40:03,559 - INFO - Batch 108 saved to database
+2024-08-14 19:40:06,995 - INFO - Batch 109 saved to database
+2024-08-14 19:40:09,934 - INFO - Batch 110 saved to database
+2024-08-14 19:40:12,998 - INFO - Batch 111 saved to database
+2024-08-14 19:40:16,093 - INFO - Batch 112 saved to database
+2024-08-14 19:40:19,125 - INFO - Batch 113 saved to database
+2024-08-14 19:40:22,212 - INFO - Batch 114 saved to database
+2024-08-14 19:40:25,330 - INFO - Batch 115 saved to database
+2024-08-14 19:40:28,345 - INFO - Batch 116 saved to database
+2024-08-14 19:40:31,318 - INFO - Batch 117 saved to database
+2024-08-14 19:40:34,651 - INFO - Batch 118 saved to database
+2024-08-14 19:40:37,552 - INFO - Batch 119 saved to database
+2024-08-14 19:40:40,741 - INFO - Batch 120 saved to database
+2024-08-14 19:40:43,939 - INFO - Batch 121 saved to database
+2024-08-14 19:40:47,113 - INFO - Batch 122 saved to database
+2024-08-14 19:40:50,257 - INFO - Batch 123 saved to database
+2024-08-14 19:40:53,135 - INFO - Batch 124 saved to database
+2024-08-14 19:40:56,728 - INFO - Batch 125 saved to database
+2024-08-14 19:41:00,086 - INFO - Batch 126 saved to database
+2024-08-14 19:41:03,309 - INFO - Batch 127 saved to database
+2024-08-14 19:41:06,684 - INFO - Batch 128 saved to database
+2024-08-14 19:41:09,968 - INFO - Batch 129 saved to database
+2024-08-14 19:41:12,934 - INFO - Batch 130 saved to database
+2024-08-14 19:41:16,418 - INFO - Batch 131 saved to database
+2024-08-14 19:41:19,573 - INFO - Batch 132 saved to database
+2024-08-14 19:41:22,548 - INFO - Batch 133 saved to database
+2024-08-14 19:41:25,663 - INFO - Batch 134 saved to database
+2024-08-14 19:41:28,596 - INFO - Batch 135 saved to database
+2024-08-14 19:41:31,683 - INFO - Batch 136 saved to database
+2024-08-14 19:41:34,648 - INFO - Batch 137 saved to database
+2024-08-14 19:41:37,491 - INFO - Batch 138 saved to database
+2024-08-14 19:41:40,665 - INFO - Batch 139 saved to database
+2024-08-14 19:41:43,767 - INFO - Batch 140 saved to database
+2024-08-14 19:41:46,603 - INFO - Batch 141 saved to database
+2024-08-14 19:41:49,581 - INFO - Batch 142 saved to database
+2024-08-14 19:41:52,748 - INFO - Batch 143 saved to database
+2024-08-14 19:41:56,117 - INFO - Batch 144 saved to database
+2024-08-14 19:41:59,174 - INFO - Batch 145 saved to database
+2024-08-14 19:42:02,400 - INFO - Batch 146 saved to database
+2024-08-14 19:42:05,243 - INFO - Batch 147 saved to database
+2024-08-14 19:42:20,745 - INFO - Batch 148 saved to database
+2024-08-14 19:42:24,242 - INFO - Batch 149 saved to database
+2024-08-14 19:42:27,304 - INFO - Batch 150 saved to database
+2024-08-14 19:42:30,374 - INFO - Batch 151 saved to database
+2024-08-14 19:42:33,515 - INFO - Batch 152 saved to database
+2024-08-14 19:42:36,504 - INFO - Batch 153 saved to database
+2024-08-14 19:42:39,594 - INFO - Batch 154 saved to database
+2024-08-14 19:42:42,502 - INFO - Batch 155 saved to database
+2024-08-14 19:42:45,492 - INFO - Batch 156 saved to database
+2024-08-14 19:42:48,601 - INFO - Batch 157 saved to database
+2024-08-14 19:42:51,758 - INFO - Batch 158 saved to database
+2024-08-14 19:42:55,053 - INFO - Batch 159 saved to database
+2024-08-14 19:42:58,907 - INFO - Batch 160 saved to database
+2024-08-14 19:43:01,973 - INFO - Batch 161 saved to database
+2024-08-14 19:43:05,076 - INFO - Batch 162 saved to database
+2024-08-14 19:43:07,974 - INFO - Batch 163 saved to database
+2024-08-14 19:43:10,965 - INFO - Batch 164 saved to database
+2024-08-14 19:43:13,985 - INFO - Batch 165 saved to database
+2024-08-14 19:43:17,167 - INFO - Batch 166 saved to database
+2024-08-14 19:43:20,009 - INFO - Batch 167 saved to database
+2024-08-14 19:43:23,055 - INFO - Batch 168 saved to database
+2024-08-14 19:43:26,244 - INFO - Batch 169 saved to database
+2024-08-14 19:43:29,284 - INFO - Batch 170 saved to database
+2024-08-14 19:43:32,401 - INFO - Batch 171 saved to database
+2024-08-14 19:43:35,384 - INFO - Batch 172 saved to database
+2024-08-14 19:43:38,366 - INFO - Batch 173 saved to database
+2024-08-14 19:43:41,659 - INFO - Batch 174 saved to database
+2024-08-14 19:43:44,529 - INFO - Batch 175 saved to database
+2024-08-14 19:43:47,755 - INFO - Batch 176 saved to database
+2024-08-14 19:43:51,001 - INFO - Batch 177 saved to database
+2024-08-14 19:43:54,371 - INFO - Batch 178 saved to database
+2024-08-14 19:43:58,002 - INFO - Batch 179 saved to database
+2024-08-14 19:44:00,965 - INFO - Batch 180 saved to database
+2024-08-14 19:44:04,300 - INFO - Batch 181 saved to database
+2024-08-14 19:44:07,114 - INFO - Batch 182 saved to database
+2024-08-14 19:44:10,049 - INFO - Batch 183 saved to database
+2024-08-14 19:44:13,080 - INFO - Batch 184 saved to database
+2024-08-14 19:44:16,183 - INFO - Batch 185 saved to database
+2024-08-14 19:44:19,388 - INFO - Batch 186 saved to database
+2024-08-14 19:44:22,631 - INFO - Batch 187 saved to database
+2024-08-14 19:44:25,564 - INFO - Batch 188 saved to database
+2024-08-14 19:44:28,491 - INFO - Batch 189 saved to database
+2024-08-14 19:44:31,563 - INFO - Batch 190 saved to database
+2024-08-14 19:44:35,333 - INFO - Batch 191 saved to database
+2024-08-14 19:44:38,353 - INFO - Batch 192 saved to database
+2024-08-14 19:44:41,819 - INFO - Batch 193 saved to database
+2024-08-14 19:44:45,527 - INFO - Batch 194 saved to database
+2024-08-14 19:44:50,102 - INFO - Batch 195 saved to database
+2024-08-14 19:44:53,180 - INFO - Batch 196 saved to database
+2024-08-14 19:44:57,201 - INFO - Batch 197 saved to database
+2024-08-14 19:45:00,268 - INFO - Batch 198 saved to database
+2024-08-14 19:45:03,463 - INFO - Batch 199 saved to database
+2024-08-14 19:45:07,352 - INFO - Batch 200 saved to database
+2024-08-14 19:45:10,724 - INFO - Batch 201 saved to database
+2024-08-14 19:45:13,795 - INFO - Batch 202 saved to database
+2024-08-14 19:45:17,424 - INFO - Batch 203 saved to database
+2024-08-14 19:45:20,441 - INFO - Batch 204 saved to database
+2024-08-14 19:45:25,058 - INFO - Batch 205 saved to database
+2024-08-14 19:45:28,176 - INFO - Batch 206 saved to database
+2024-08-14 19:45:31,278 - INFO - Batch 207 saved to database
+2024-08-14 19:45:34,460 - INFO - Batch 208 saved to database
+2024-08-14 19:45:37,686 - INFO - Batch 209 saved to database
+2024-08-14 19:45:40,786 - INFO - Batch 210 saved to database
+2024-08-14 19:45:44,475 - INFO - Batch 211 saved to database
+2024-08-14 19:45:47,680 - INFO - Batch 212 saved to database
+2024-08-14 19:45:50,834 - INFO - Batch 213 saved to database
+2024-08-14 19:45:54,085 - INFO - Batch 214 saved to database
+2024-08-14 19:45:58,194 - INFO - Batch 215 saved to database
+2024-08-14 19:46:01,383 - INFO - Batch 216 saved to database
+2024-08-14 19:46:04,706 - INFO - Batch 217 saved to database
+2024-08-14 19:46:07,967 - INFO - Batch 218 saved to database
+2024-08-14 19:46:11,087 - INFO - Batch 219 saved to database
+2024-08-14 19:46:14,762 - INFO - Batch 220 saved to database
+2024-08-14 19:46:18,096 - INFO - Batch 221 saved to database
+2024-08-14 19:46:21,292 - INFO - Batch 222 saved to database
+2024-08-14 19:46:24,232 - INFO - Batch 223 saved to database
+2024-08-14 19:46:29,432 - INFO - Batch 224 saved to database
+2024-08-14 19:46:32,651 - INFO - Batch 225 saved to database
+2024-08-14 19:46:36,245 - INFO - Batch 226 saved to database
+2024-08-14 19:46:39,458 - INFO - Batch 227 saved to database
+2024-08-14 19:46:42,789 - INFO - Batch 228 saved to database
+2024-08-14 19:46:46,052 - INFO - Batch 229 saved to database
+2024-08-14 19:46:49,317 - INFO - Batch 230 saved to database
+2024-08-14 19:46:52,502 - INFO - Batch 231 saved to database
+2024-08-14 19:46:56,355 - INFO - Batch 232 saved to database
+2024-08-14 19:46:59,643 - INFO - Batch 233 saved to database
+2024-08-14 19:47:02,981 - INFO - Batch 234 saved to database
+2024-08-14 19:47:06,533 - INFO - Batch 235 saved to database
+2024-08-14 19:47:09,783 - INFO - Batch 236 saved to database
+2024-08-14 19:47:12,800 - INFO - Batch 237 saved to database
+2024-08-14 19:47:16,003 - INFO - Batch 238 saved to database
+2024-08-14 19:47:32,977 - INFO - Batch 239 saved to database
+2024-08-14 19:47:36,698 - INFO - Batch 240 saved to database
+2024-08-14 19:47:39,987 - INFO - Batch 241 saved to database
+2024-08-14 19:47:43,189 - INFO - Batch 242 saved to database
+2024-08-14 19:47:46,301 - INFO - Batch 243 saved to database
+2024-08-14 19:47:49,735 - INFO - Batch 244 saved to database
+2024-08-14 19:47:53,130 - INFO - Batch 245 saved to database
+2024-08-14 19:47:56,623 - INFO - Batch 246 saved to database
+2024-08-14 19:47:59,825 - INFO - Batch 247 saved to database
+2024-08-14 19:48:02,827 - INFO - Batch 248 saved to database
+2024-08-14 19:48:05,990 - INFO - Batch 249 saved to database
+2024-08-14 19:48:08,873 - INFO - Batch 250 saved to database
+2024-08-14 19:48:12,005 - INFO - Batch 251 saved to database
+2024-08-14 19:48:15,227 - INFO - Batch 252 saved to database
+2024-08-14 19:48:18,464 - INFO - Batch 253 saved to database
+2024-08-14 19:48:21,546 - INFO - Batch 254 saved to database
+2024-08-14 19:48:25,198 - INFO - Batch 255 saved to database
+2024-08-14 19:48:28,525 - INFO - Batch 256 saved to database
+2024-08-14 19:48:31,954 - INFO - Batch 257 saved to database
+2024-08-14 19:48:35,424 - INFO - Batch 258 saved to database
+2024-08-14 19:48:38,574 - INFO - Batch 259 saved to database
+2024-08-14 19:48:41,503 - INFO - Batch 260 saved to database
+2024-08-14 19:48:44,569 - INFO - Batch 261 saved to database
+2024-08-14 19:48:47,854 - INFO - Batch 262 saved to database
+2024-08-14 19:48:51,263 - INFO - Batch 263 saved to database
+2024-08-14 19:48:55,352 - INFO - Batch 264 saved to database
+2024-08-14 19:48:59,002 - INFO - Batch 265 saved to database
+2024-08-14 19:49:02,108 - INFO - Batch 266 saved to database
+2024-08-14 19:49:05,400 - INFO - Batch 267 saved to database
+2024-08-14 19:49:08,876 - INFO - Batch 268 saved to database
+2024-08-14 19:49:11,950 - INFO - Batch 269 saved to database
+2024-08-14 19:49:15,180 - INFO - Batch 270 saved to database
+2024-08-14 19:49:18,209 - INFO - Batch 271 saved to database
+2024-08-14 19:49:21,281 - INFO - Batch 272 saved to database
+2024-08-14 19:49:24,253 - INFO - Batch 273 saved to database
+2024-08-14 19:49:27,379 - INFO - Batch 274 saved to database
+2024-08-14 19:49:30,419 - INFO - Batch 275 saved to database
+2024-08-14 19:49:33,561 - INFO - Batch 276 saved to database
+2024-08-14 19:49:36,651 - INFO - Batch 277 saved to database
+2024-08-14 19:49:39,747 - INFO - Batch 278 saved to database
+2024-08-14 19:49:42,899 - INFO - Batch 279 saved to database
+2024-08-14 19:49:45,826 - INFO - Batch 280 saved to database
+2024-08-14 19:49:48,871 - INFO - Batch 281 saved to database
+2024-08-14 19:49:52,040 - INFO - Batch 282 saved to database
+2024-08-14 19:49:55,752 - INFO - Batch 283 saved to database
+2024-08-14 19:49:59,133 - INFO - Batch 284 saved to database
+2024-08-14 19:50:02,749 - INFO - Batch 285 saved to database
+2024-08-14 19:50:06,588 - INFO - Batch 286 saved to database
+2024-08-14 19:50:09,502 - INFO - Batch 287 saved to database
+2024-08-14 19:50:12,463 - INFO - Batch 288 saved to database
+2024-08-14 19:50:15,627 - INFO - Batch 289 saved to database
+2024-08-14 19:50:19,133 - INFO - Batch 290 saved to database
+2024-08-14 19:50:22,545 - INFO - Batch 291 saved to database
+2024-08-14 19:50:25,760 - INFO - Batch 292 saved to database
+2024-08-14 19:50:28,860 - INFO - Batch 293 saved to database
+2024-08-14 19:50:31,951 - INFO - Batch 294 saved to database
+2024-08-14 19:50:34,992 - INFO - Batch 295 saved to database
+2024-08-14 19:50:37,956 - INFO - Batch 296 saved to database
+2024-08-14 19:50:40,929 - INFO - Batch 297 saved to database
+2024-08-14 19:50:44,103 - INFO - Batch 298 saved to database
+2024-08-14 19:50:47,497 - INFO - Batch 299 saved to database
+2024-08-14 19:50:50,773 - INFO - Batch 300 saved to database
+2024-08-14 19:50:53,928 - INFO - Batch 301 saved to database
+2024-08-14 19:50:56,985 - INFO - Batch 302 saved to database
+2024-08-14 19:51:00,537 - INFO - Batch 303 saved to database
+2024-08-14 19:51:03,948 - INFO - Batch 304 saved to database
+2024-08-14 19:51:07,084 - INFO - Batch 305 saved to database
+2024-08-14 19:51:10,089 - INFO - Batch 306 saved to database
+2024-08-14 19:51:13,446 - INFO - Batch 307 saved to database
+2024-08-14 19:51:16,659 - INFO - Batch 308 saved to database
+2024-08-14 19:51:19,959 - INFO - Batch 309 saved to database
+2024-08-14 19:51:23,358 - INFO - Batch 310 saved to database
+2024-08-14 19:51:26,724 - INFO - Batch 311 saved to database
+2024-08-14 19:51:29,790 - INFO - Batch 312 saved to database
+2024-08-14 19:51:32,902 - INFO - Batch 313 saved to database
+2024-08-14 19:51:35,974 - INFO - Batch 314 saved to database
+2024-08-14 19:51:39,045 - INFO - Batch 315 saved to database
+2024-08-14 19:51:42,197 - INFO - Batch 316 saved to database
+2024-08-14 19:51:45,355 - INFO - Batch 317 saved to database
+2024-08-14 19:51:48,591 - INFO - Batch 318 saved to database
+2024-08-14 19:51:51,617 - INFO - Batch 319 saved to database
+2024-08-14 19:51:54,999 - INFO - Batch 320 saved to database
+2024-08-14 19:51:58,399 - INFO - Batch 321 saved to database
+2024-08-14 19:52:01,669 - INFO - Batch 322 saved to database
+2024-08-14 19:52:05,654 - INFO - Batch 323 saved to database
+2024-08-14 19:52:09,086 - INFO - Batch 324 saved to database
+2024-08-14 19:52:12,165 - INFO - Batch 325 saved to database
+2024-08-14 19:52:15,276 - INFO - Batch 326 saved to database
+2024-08-14 19:52:18,192 - INFO - Batch 327 saved to database
+2024-08-14 19:52:21,452 - INFO - Batch 328 saved to database
+2024-08-14 19:52:24,522 - INFO - Batch 329 saved to database
+2024-08-14 19:52:27,552 - INFO - Batch 330 saved to database
+2024-08-14 19:52:30,741 - INFO - Batch 331 saved to database
+2024-08-14 19:52:46,824 - INFO - Batch 332 saved to database
+2024-08-14 19:52:50,003 - INFO - Batch 333 saved to database
+2024-08-14 19:52:53,086 - INFO - Batch 334 saved to database
+2024-08-14 19:52:56,536 - INFO - Batch 335 saved to database
+2024-08-14 19:52:59,914 - INFO - Batch 336 saved to database
+2024-08-14 19:53:03,172 - INFO - Batch 337 saved to database
+2024-08-14 19:53:06,237 - INFO - Batch 338 saved to database
+2024-08-14 19:53:09,177 - INFO - Batch 339 saved to database
+2024-08-14 19:53:12,207 - INFO - Batch 340 saved to database
+2024-08-14 19:53:15,307 - INFO - Batch 341 saved to database
+2024-08-14 19:53:18,568 - INFO - Batch 342 saved to database
+2024-08-14 19:53:21,985 - INFO - Batch 343 saved to database
+2024-08-14 19:53:25,400 - INFO - Batch 344 saved to database
+2024-08-14 19:53:28,300 - INFO - Batch 345 saved to database
+2024-08-14 19:53:31,504 - INFO - Batch 346 saved to database
+2024-08-14 19:53:34,404 - INFO - Batch 347 saved to database
+2024-08-14 19:53:37,608 - INFO - Batch 348 saved to database
+2024-08-14 19:53:40,840 - INFO - Batch 349 saved to database
+2024-08-14 19:53:43,859 - INFO - Batch 350 saved to database
+2024-08-14 19:53:46,890 - INFO - Batch 351 saved to database
+2024-08-14 19:53:49,945 - INFO - Batch 352 saved to database
+2024-08-14 19:53:52,232 - ERROR - Error saving data to database: A string literal cannot contain NUL (0x00) characters.
+2024-08-14 19:53:52,280 - INFO - Data saved to the database
+2024-08-14 19:53:52,280 - INFO - Run duration: 2248.323746919632 seconds
+2024-08-14 19:53:52,563 - INFO - Query ID: a36e2ae9e72fe63891d0323706afb78e_1723665231231_yEfUDy
+2024-08-14 19:53:52,624 - INFO - Query Status: 1
+2024-08-14 19:53:53,669 - INFO - Query Status: 1
+2024-08-14 19:53:54,711 - INFO - Query Status: 1
+2024-08-14 19:53:55,755 - INFO - Query Status: 1
+2024-08-14 19:53:56,796 - INFO - Query Status: 1
+2024-08-14 19:53:57,837 - INFO - Query Status: 1
+2024-08-14 19:53:58,880 - INFO - Query Status: 1
+2024-08-14 19:53:59,919 - INFO - Query Status: 1
+2024-08-14 19:54:00,957 - INFO - Query Status: 1
+2024-08-14 19:54:01,996 - INFO - Query Status: 1
+2024-08-14 19:54:03,033 - INFO - Query Status: 1
+2024-08-14 19:54:04,081 - INFO - Query Status: 1
+2024-08-14 19:54:05,127 - INFO - Query Status: 1
+2024-08-14 19:54:06,165 - INFO - Query Status: 1
+2024-08-14 19:54:07,210 - INFO - Query Status: 1
+2024-08-14 19:54:08,251 - INFO - Query Status: 1
+2024-08-14 19:54:09,300 - INFO - Query Status: 1
+2024-08-14 19:54:10,353 - INFO - Query Status: 1
+2024-08-14 19:54:11,393 - INFO - Query Status: 1
+2024-08-14 19:54:12,432 - INFO - Query Status: 1
+2024-08-14 19:54:13,473 - INFO - Query Status: 1
+2024-08-14 19:54:14,517 - INFO - Query Status: 1
+2024-08-14 19:54:15,567 - INFO - Query Status: 1
+2024-08-14 19:54:16,608 - INFO - Query Status: 1
+2024-08-14 19:54:17,649 - INFO - Query Status: 1
+2024-08-14 19:54:18,701 - INFO - Query Status: 1
+2024-08-14 19:54:19,745 - INFO - Query Status: 1
+2024-08-14 19:54:20,828 - INFO - Query Status: 1
+2024-08-14 19:54:21,872 - INFO - Query Status: 1
+2024-08-14 19:54:22,913 - INFO - Query Status: 1
+2024-08-14 19:54:23,953 - INFO - Query Status: 1
+2024-08-14 19:54:24,997 - INFO - Query Status: 1
+2024-08-14 19:54:26,035 - INFO - Query Status: 1
+2024-08-14 19:54:27,081 - INFO - Query Status: 1
+2024-08-14 19:54:28,120 - INFO - Query Status: 1
+2024-08-14 19:54:29,159 - INFO - Query Status: 1
+2024-08-14 19:54:30,208 - INFO - Query Status: 1
+2024-08-14 19:54:31,259 - INFO - Query Status: 1
+2024-08-14 19:54:32,306 - INFO - Query Status: 1
+2024-08-14 19:54:33,349 - INFO - Query Status: 1
+2024-08-14 19:54:34,389 - INFO - Query Status: 1
+2024-08-14 19:54:35,432 - INFO - Query Status: 1
+2024-08-14 19:54:36,472 - INFO - Query Status: 1
+2024-08-14 19:54:37,515 - INFO - Query Status: 1
+2024-08-14 19:54:38,559 - INFO - Query Status: 1
+2024-08-14 19:54:39,603 - INFO - Query Status: 1
+2024-08-14 19:54:40,651 - INFO - Query Status: 1
+2024-08-14 19:54:41,693 - INFO - Query Status: 1
+2024-08-14 19:54:42,732 - INFO - Query Status: 1
+2024-08-14 19:54:43,769 - INFO - Query Status: 1
+2024-08-14 19:54:44,815 - INFO - Query Status: 1
+2024-08-14 19:54:45,857 - INFO - Query Status: 1
+2024-08-14 19:54:46,900 - INFO - Query Status: 1
+2024-08-14 19:54:47,942 - INFO - Query Status: 1
+2024-08-14 19:54:48,982 - INFO - Query Status: 1
+2024-08-14 19:54:50,023 - INFO - Query Status: 1
+2024-08-14 19:54:51,076 - INFO - Query Status: 1
+2024-08-14 19:54:52,119 - INFO - Query Status: 1
+2024-08-14 19:54:53,162 - INFO - Query Status: 1
+2024-08-14 19:54:54,210 - INFO - Query Status: 1
+2024-08-14 19:54:55,258 - INFO - Query Status: 1
+2024-08-14 19:54:56,318 - INFO - Query Status: 1
+2024-08-14 19:54:57,371 - INFO - Query Status: 1
+2024-08-14 19:54:58,419 - INFO - Query Status: 1
+2024-08-14 19:54:59,465 - INFO - Query Status: 1
+2024-08-14 19:55:00,524 - INFO - Query Status: 1
+2024-08-14 19:55:01,566 - INFO - Query Status: 1
+2024-08-14 19:55:02,609 - INFO - Query Status: 1
+2024-08-14 19:55:03,657 - INFO - Query Status: 1
+2024-08-14 19:55:04,699 - INFO - Query Status: 1
+2024-08-14 19:55:05,747 - INFO - Query Status: 1
+2024-08-14 19:55:06,792 - INFO - Query Status: 1
+2024-08-14 19:55:07,847 - INFO - Query Status: 1
+2024-08-14 19:55:08,889 - INFO - Query Status: 1
+2024-08-14 19:55:09,931 - INFO - Query Status: 1
+2024-08-14 19:55:10,979 - INFO - Query Status: 1
+2024-08-14 19:55:12,022 - INFO - Query Status: 1
+2024-08-14 19:55:13,064 - INFO - Query Status: 1
+2024-08-14 19:55:14,117 - INFO - Query Status: 1
+2024-08-14 19:55:15,158 - INFO - Query Status: 1
+2024-08-14 19:55:16,217 - INFO - Query Status: 1
+2024-08-14 19:55:17,264 - INFO - Query Status: 1
+2024-08-14 19:55:18,320 - INFO - Query Status: 1
+2024-08-14 19:55:19,359 - INFO - Query Status: 1
+2024-08-14 19:55:20,413 - INFO - Query Status: 1
+2024-08-14 19:55:21,458 - INFO - Query Status: 1
+2024-08-14 19:55:22,502 - INFO - Query Status: 1
+2024-08-14 19:55:23,548 - INFO - Query Status: 1
+2024-08-14 19:55:24,596 - INFO - Query Status: 1
+2024-08-14 19:55:25,644 - INFO - Query Status: 1
+2024-08-14 19:55:26,688 - INFO - Query Status: 1
+2024-08-14 19:55:27,728 - INFO - Query Status: 1
+2024-08-14 19:55:28,767 - INFO - Query Status: 1
+2024-08-14 19:55:29,808 - INFO - Query Status: 1
+2024-08-14 19:55:30,857 - INFO - Query Status: 1
+2024-08-14 19:55:31,912 - INFO - Query Status: 1
+2024-08-14 19:55:32,962 - INFO - Query Status: 1
+2024-08-14 19:55:34,011 - INFO - Query Status: 1
+2024-08-14 19:55:35,059 - INFO - Query Status: 1
+2024-08-14 19:55:36,205 - INFO - Query Status: 1
+2024-08-14 19:55:37,253 - INFO - Query Status: 1
+2024-08-14 19:55:38,292 - INFO - Query Status: 1
+2024-08-14 19:55:39,345 - INFO - Query Status: 1
+2024-08-14 19:55:40,389 - INFO - Query Status: 1
+2024-08-14 19:55:41,438 - INFO - Query Status: 1
+2024-08-14 19:55:42,483 - INFO - Query Status: 1
+2024-08-14 19:55:43,524 - INFO - Query Status: 1
+2024-08-14 19:55:44,562 - INFO - Query Status: 1
+2024-08-14 19:55:45,617 - INFO - Query Status: 1
+2024-08-14 19:55:46,669 - INFO - Query Status: 1
+2024-08-14 19:55:47,713 - INFO - Query Status: 1
+2024-08-14 19:55:48,753 - INFO - Query Status: 1
+2024-08-14 19:55:49,798 - INFO - Query Status: 1
+2024-08-14 19:55:50,871 - INFO - Query Status: 1
+2024-08-14 19:55:51,982 - INFO - Query Status: 1
+2024-08-14 19:55:53,020 - INFO - Query Status: 1
+2024-08-14 19:55:54,069 - INFO - Query Status: 1
+2024-08-14 19:55:55,109 - INFO - Query Status: 1
+2024-08-14 19:55:56,151 - INFO - Query Status: 1
+2024-08-14 19:55:57,211 - INFO - Query Status: 1
+2024-08-14 19:55:58,260 - INFO - Query Status: 1
+2024-08-14 19:55:59,302 - INFO - Query Status: 1
+2024-08-14 19:56:00,357 - INFO - Query Status: 1
+2024-08-14 19:56:01,400 - INFO - Query Status: 1
+2024-08-14 19:56:02,446 - INFO - Query Status: 1
+2024-08-14 19:56:03,488 - INFO - Query Status: 1
+2024-08-14 19:56:04,531 - INFO - Query Status: 1
+2024-08-14 19:56:05,572 - INFO - Query Status: 1
+2024-08-14 19:56:06,613 - INFO - Query Status: 1
+2024-08-14 19:56:07,656 - INFO - Query Status: 1
+2024-08-14 19:56:08,697 - INFO - Query Status: 1
+2024-08-14 19:56:09,737 - INFO - Query Status: 1
+2024-08-14 19:56:10,795 - INFO - Query Status: 1
+2024-08-14 19:56:11,838 - INFO - Query Status: 1
