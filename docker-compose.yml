@@ -13,14 +13,14 @@ services:
   flask_api_forecasting:
     build: ./flask_api_forecasting
     container_name: flask_api_forecasting
-    command: sh -c "python FlaskApiForecasting.py & python forecasting_service.py & python ForecastingServiceServer.py & python MongoApi.py & python HistForecast.py & python CatHistory.py"
+    command: sh -c "python FlaskApiForecasting.py & python forecasting_service.py & python ForecastingServiceServer.py & python MongoApi.py & python HistForecast.py & python HistoryBDC.py"
     ports:
       - "5080:5080"
       - "5600:5600"
       - "3055:3055"
       - "4650:4650"
       - "4660:4660"
-      - "4670:4670"
+      - "4770:4770"
     volumes:
       - ./flask_api_forecasting:/app
     depends_on:
@@ -32,11 +32,11 @@ services:
       - TF_CPP_MIN_LOG_LEVEL=2
       - REDIS_HOST=redis
       - REDIS_PORT=6379
-      - MONGODB_URI=
+      - 
       - POSTGRES_HOST=
       - POSTGRES_DB=sandbox
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=password
+      - POSTGRES_PASSWORD=
 
   node_api_server:
     build: ./node_api_server
@@ -55,6 +55,7 @@ services:
       - REDIS_HOST=redis
       - REDIS_PORT=6379
       - MONGODB_URI=
+
   discord_api:
     build: ./discord_api
     container_name: discord_api
@@ -151,6 +152,7 @@ services:
       - POSTGRES_DB=sandbox
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=
+    healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:3000"]
       interval: 30s
       timeout: 10s
