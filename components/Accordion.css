@@ -1,0 +1,20 @@
+.custom-accordion-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff; /* Bootstrap primary button color */
+    border: none;
+    padding: 10px;
+    fill: black;
+    cursor: pointer;
+  }
+  
+  .custom-accordion-header:hover {
+    background-color: #f10d0d; /* Darker shade for hover effect */
+  }
+  
+  .custom-accordion-header::after {
+    display: none; /* Remove the default arrow icon */
+  }
