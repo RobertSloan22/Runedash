@@ -1,13 +1,29 @@
 
 Multi-Container Application Overview:::
-Introduction:::![Screenshot 2024-08-29 071918](https://github.com/user-attachments/assets/acb7bba8-a9c6-47fc-8f33-e379b0115272)
-![Screenshot 2024-08-29 071828](https://github.com/user-attachments/assets/8fa09b9f-39e8-40c6-8b41-d6e13dbf5172)
-![Screenshot 2024-08-29 071734](https://github.com/user-attachments/assets/fcfdbe0d-a2c5-4346-8457-af09b67bf5f7)
-![Screenshot 2024-08-29 071654](https://github.com/user-attachments/assets/7193f494-d9ee-4652-b437-c4fc6d57b88a)
-![Screenshot 2024-08-29 120019](https://github.com/user-attachments/assets/b9559fd1-5f26-43f7-813e-2dfc998a27f3)
-![Screenshot 2024-08-29 115938](https://github.com/user-attachments/assets/3531e40a-f72f-43aa-92cf-30858c3171d3)
-![Screenshot 2024-08-29 072233](https://github.com/user-attachments/assets/aafb5ca8-12cd-4052-bb30-846e7b542caa)
-![Screenshot 2024-08-29 071956](https://github.com/user-attachments/assets/c6ad25f9-9c4f-4091-8709-cbbf9ec56254)
+Introduction:::!
+
+![Screenshot 2024-08-29 071654](https://github.com/user-attachments/assets/3bdfa4ed-447c-4f3f-8df0-67001c42a20d)
+![Screenshot 2024-08-29 071734](https://github.com/user-attachments/assets/3fa8f192-1f31-412f-bab1-1a13d3af5a4a)
+
+
+![Screenshot 2024-08-29 071828](https://github.com/user-attachments/assets/44a50923-b909-4847-9929-651da2916cf5)
+
+![Screenshot 2024-08-29 071918](https://github.com/user-attachments/assets/1f0f11a1-653a-4323-8b8f-ec2fdb146e37)
+
+API'S ALL GOOD === ALL GREEN 
+
+![Screenshot 2024-08-29 071956](https://github.com/user-attachments/assets/5f23bb81-b51e-45d7-a4db-b62479aa1fd9)
+
+API'S WITH PROBLEMS RESLOVE TO ORANGE OR RED FOR TOTAL LOSS OF SIGNAL 
+![Screenshot 2024-08-29 072233](https://github.com/user-attachments/assets/e4128968-213c-458c-8a6f-5b532e2d0924)
+
+IN ADDITION TO ON DEMAND FORECASTING, A RETRAINING PROCESS FOR A MODEL IS AVALIABLE, THE ORIGINAL MODEL WILL NOT BE CHANGED BUT THE NEW MODEL PULLS IN THE MOST RECENT DATA AND RUNS A 200 EPOCH TRAINING CYCLE WITH PERFORMANCE VALIDATION METRICS REPORTED. 
+
+
+![Screenshot 2024-08-29 115938](https://github.com/user-attachments/assets/c043fa06-15a5-4dd8-a699-0ca10f01e6c1)
+
+
+![Screenshot 2024-08-29 120019](https://github.com/user-attachments/assets/02b0075f-206e-4b83-ae3e-a473b8ebd084)
 
 This multi-container application is designed to comprehensively collect, process, forecast, and visualize data related to the cryptocurrency project "runes." The architecture employs multiple Docker containers, each fulfilling a specific role within the system. The application is designed to be modular, scalable, and efficient, allowing for real-time data handling, forecasting, and user interaction through a React-based frontend dashboard.
 
