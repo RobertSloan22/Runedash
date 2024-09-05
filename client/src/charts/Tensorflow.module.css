@@ -1,0 +1,16 @@
+.container {
+  max-width: 2800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1d1d1d;
+  width: 100%;
+  color: white;
+}
+
+.loadingIndicator {
+  display: inline-block;
+  margin-left: 10px;
+  color: #666;
+}
+
+/* Add any other specific styles you need for your component */
