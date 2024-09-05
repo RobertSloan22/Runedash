@@ -1,0 +1,143 @@
+.python {
+  grid-column: span 6;
+  height: 75vh; /* Use viewport height */
+  background-color: rgba(0, 0, 0, 0.303);
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  height: 100vh; /* Use viewport height */
+  z-index: 998;
+  background-color: rgba(0, 0, 0, 0.786);
+}
+
+.treechart {
+  width: 80%; /* Use percentage instead of fixed width */
+  height: 25vh; /* Use viewport height */
+  justify-self: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.docker {
+  grid-column: span 6;
+  width: 100%; /* Keep width 100% */
+  height: 40vh; /* Use viewport height */
+  justify-self: center;
+  margin: auto;
+  display: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.python2 {
+  grid-column: span 4;
+  height: 90vh; /* Use viewport height */
+}
+
+.forecast-graph {
+  grid-column: span 6;
+  height: 55vh; /* Use viewport height */
+}
+
+.selectrune {
+  grid-column: span 6;
+  height: 80vh; /* Use viewport height */
+}
+
+.forecastplot {
+  grid-column: span 6;
+  height: 200vh; /* Use viewport height */
+}
+
+.logs {
+  grid-column: span 3;
+  height: 50vh; /* Use viewport height */
+}
+
+.forecast {
+  grid-column: span 6;
+  height: 50vh; /* Use viewport height */
+}
+
+.h3, .h4 {
+  grid-column: span 6;
+  height: 12.5vh; /* Use viewport height */
+  text-align: center;
+  background-color: rgba(0, 0, 255, 0.508);
+}
+
+.datacollectionstatus {
+  background-color: rgba(0, 0, 255, 0.815);
+  grid-column: span 6;
+  height: 10vh; /* Use viewport height */
+  text-align: center;
+}
+
+.alert, .alert2 {
+  height: 55vh; /* Use viewport height */
+  grid-column: span 1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 0, 0, 0.555);
+}
+
+.historical-data {
+  grid-column: span 6;
+  height: 105vh; /* Use viewport height */
+}
+
+.historicalforecast {
+  grid-column: span 6;
+  height: 55vh; /* Use viewport height */
+}
+
+.tfjs {
+  grid-column: span 6;
+  height: 150vh; /* Use viewport height */
+}
+
+.forecast2 {
+  grid-column: span 2;
+  height: 100vh; /* Use viewport height */
+}
+@media (max-width: 1200px) {
+  .python, .forecast-graph, .selectrune, .forecastplot, .historical-data, .tfjs {
+    grid-column: span 3;
+    height: auto; /* Allow height to adjust automatically */
+  }
+
+  .python2, .logs, .forecast2 {
+    grid-column: span 2;
+    height: auto; /* Allow height to adjust automatically */
+  }
+
+  .forecast {
+    grid-column: span 3;
+    height: auto; /* Allow height to adjust automatically */
+  }
+}
+
+@media (max-width: 600px) {
+  .component, .alert, .alert2 {
+    font-size: 14px;
+    height: auto; /* Allow height to adjust automatically */
+  }
+
+  .python, .forecast-graph, .selectrune, .forecastplot, .historical-data, .tfjs, .python2, .logs, .forecast2, .forecast {
+    grid-column: span 6;
+    height: auto; /* Allow height to adjust automatically */
+  }
+}
+.container-metrics h3 {
+  font-size: 1.5rem;
+}
+
+.container-metrics h4 {
+  font-size: 1.25rem;
+}
